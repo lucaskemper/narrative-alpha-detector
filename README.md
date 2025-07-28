@@ -42,13 +42,6 @@ adjusted = (1 - confidence) * 0.5 + confidence * raw_prob
 
 **Filtering**: Expired markets and extreme hallucinations are clipped or skipped
 
-## 📊 Sample Output
-
-| Market | Market Prob | AI Prior | Mispricing | Direction | Expected Value |
-|--------|-------------|----------|------------|-----------|----------------|
-| "Doge ETF approved by July 31?" | 1.7% | 70.0% | +68.3% | BUY_YES | 0.683 |
-| "Gold $3K by EOY" | 6.7% | 62.7% | +56.0% | BUY_YES | 0.560 |
-| "Fed rate cut in 2025" | 23.0% | 78.0% | +55.0% | BUY_YES | 0.550 |
 
 ## ⚙️ Setup
 
